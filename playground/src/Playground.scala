@@ -12,6 +12,5 @@ class TestConfig
 class PlaygroundConfig
     extends Config(
       (new TestConfig)
-        .orElse(new freechips.rocketchip.subsystem.WithInclusiveCache)
         .orElse(new freechips.rocketchip.system.DefaultConfig)
     )

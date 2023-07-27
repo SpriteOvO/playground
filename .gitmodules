@@ -23,3 +23,6 @@
 	url = git@github.com:chipsalliance/rocket-chip-fpga-shells.git
 [submodule "dependencies/rocket-chip"]
 	branch = dev
+[submodule "dependencies/binder"]
+	path = dependencies/binder
+	url = git@github.com:sequencer/chisel-circt-binder.git
